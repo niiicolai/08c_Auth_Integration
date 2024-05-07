@@ -1,6 +1,6 @@
 A simple OAuth 2 implementation with Google in Node.js
 
-Find a detailed descript in [report.pdf](report.pdf)
+Find a detailed description in [report.pdf](report.pdf)
 
 ## Getting Started
 1. Clone the repository
