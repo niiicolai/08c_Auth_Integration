@@ -3,11 +3,9 @@ A simple OAuth 2 implementation with Google in Node.js
 ## Getting Started
 1. Clone the repository
 2. Run `npm install`
-3. Create a `.env` file in the root directory and add the following:
-```bash
-GOOGLE_CLIENT_ID=YOUR_GOOGLE_CLIENT_ID
-GOOGLE_CLIENT_SECRET=YOUR_GOOGLE_CLIENT_SECRET
-GOOGLE_REDIRECT_URI=http://localhost:3000/auth/google/callback
+3. Copy the `.env.example` file to `.env` and add your Google OAuth 2 credentials
+```
+$ cp .env.example .env
 ```
 4. Run `npm start`
 5. Visit `http://localhost:3000` in your browser
